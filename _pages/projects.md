@@ -13,10 +13,10 @@ They are the fundamental and essential tool for an intelligent agent with limite
 <img src='/images/colpa_red.png' width=300>
 
 <b>[Lazy Incremental Search](https://jliminf.github.io/projects/lis)</b><br>
-<img src='/images/piano.png' width=500>
+<img src='/images/piano.png' width=300>
 
 <b>[Multi-Agent Path Finding](https://jliminf.github.io/projects/mapf)</b><br>
-<img src='/images/mapf_instance.png' width=200>
+<img src='/images/mapf_instance.png' width=300>
 
 <b>[Autonomous Navigation](https://jliminf.github.io/projects/stack)</b><br>
 <img src='/images/racecar.png' width=300>
