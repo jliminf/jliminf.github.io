@@ -14,7 +14,7 @@ author_profile: true
 <b>Lim, J.</b>, and Tsiotras, P., “A generalized A* algorithm for finding globally optimal paths in weighted colored graphs,” in <i>2021 IEEE International Conference on Robotics and Automation (ICRA)</i>, pp. 7503–7509.
 
 <b>[MAMS-A\*: Multi-Agent Multi-Scale A\*](https://jliminf.github.io/publications/mams20)</b><br>
-<b>Lim, J.</b>, and Tsiotras, P., "MAMS-A*: Multi-Agent Multi-Scale A*," in <i>2020 IEEE International Conference on Robotics and Automation (ICRA)</i>, 2020, pp. 5583-5589.
+<b>Lim, J.</b>, and Tsiotras, P., "MAMS-A*: Multi-Agent Multi-Scale A*," in <i>2020 IEEE International Conference on Robotics and Automation (ICRA)</i>, pp. 5583-5589.
 
 <b>[Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations](https://jliminf.github.io/publications/gtddp18)</b><br>
 Sun, W., Pan, Y., <b>Lim, J.</b>, Theodorou, E., and Tsiotras, P., "Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations," <i>AIAA Journal of Guidance, Control, and Dynamics</i>, Vol. 41, No. 12, pp. 2568-2580, 2018, doi: 10.2514/1.G003516.
