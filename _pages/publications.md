@@ -18,3 +18,6 @@ author_profile: true
 
 <b>[Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations](https://jliminf.github.io/publications/gtddp18)</b><br>
 Sun, W., Pan, Y., <b>Lim, J.</b>, Theodorou, E., and Tsiotras, P., "Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations," <i>AIAA Journal of Guidance, Control, and Dynamics</i>, Vol. 41, No. 12, pp. 2568-2580, 2018, doi: 10.2514/1.G003516.
+
+<b>Manuscripts in Submission</b><br>
+Lim, J., and Tsiotras P., “CBS-Budget (CBSB): A Complete and Bounded Suboptimal Search for Multi-Agent Path Finding,” under review at Artificial Intelligence Journal.

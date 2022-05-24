@@ -1,5 +1,5 @@
 ---
-title: "lass-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs"
+title: "Class-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs"
 collection: publications
 permalink: /publications/colpa21
 citation: 'Lim, J., Salzman, O., and P. Tsiotras, "Class-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs," <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2021, pp. 6907-6913, doi: 10.1109/IROS51168.2021.9636736.'
