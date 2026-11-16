@@ -1,0 +1,48 @@
+- title: "Uncertainty-Aware Multi-Robot Task Allocation With Strongly Coupled Inter-Robot Rewards"
+  authors: "Ben Rossano, Jaein Lim, and Jonathan P. How"
+  year: 2026
+  venue: "IROS · Accepted"
+  type: conference
+  url: https://arxiv.org/abs/2509.22469
+- title: "CBS-Budget (CBSB): A Complete and Bounded Suboptimal Search for Multi-Agent Path Finding"
+  authors: "Jaein Lim and Panagiotis Tsiotras"
+  year: 2025
+  venue: "Artificial Intelligence"
+  type: journal
+  url: https://doi.org/10.1016/j.artint.2025.104349
+- title: "Lazy Incremental Search for Efficient Replanning with Bounded Suboptimality Guarantees"
+  authors: "Jaein Lim, Mahdi Ghanei, Richard Connor Lawson, Siddhartha S. Srinivasa, and Panagiotis Tsiotras"
+  year: 2024
+  venue: "The International Journal of Robotics Research"
+  type: journal
+  url: https://doi.org/10.1177/02783649241227869
+- title: "Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation"
+  authors: "Jaein Lim, Siddhartha S. Srinivasa, and Panagiotis Tsiotras"
+  year: 2022
+  venue: "IROS"
+  type: conference
+  url: https://arxiv.org/abs/2105.12076
+- title: "Class-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs"
+  authors: "Jaein Lim, Oren Salzman, and Panagiotis Tsiotras"
+  year: 2021
+  venue: "IROS"
+  type: conference
+  url: /publications/colpa21
+- title: "A Generalized A* Algorithm for Finding Globally Optimal Paths in Weighted Colored Graphs"
+  authors: "Jaein Lim and Panagiotis Tsiotras"
+  year: 2021
+  venue: "ICRA"
+  type: conference
+  url: /publications/coa21
+- title: "MAMS-A*: Multi-Agent Multi-Scale A*"
+  authors: "Jaein Lim and Panagiotis Tsiotras"
+  year: 2020
+  venue: "ICRA"
+  type: conference
+  url: /publications/mams20
+- title: "Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations"
+  authors: "Sun, W., Pan, Y., Jaein Lim, Theodorou, E., and Panagiotis Tsiotras"
+  year: 2018
+  venue: "Journal of Guidance, Control, and Dynamics"
+  type: journal
+  url: https://doi.org/10.2514/1.G003516

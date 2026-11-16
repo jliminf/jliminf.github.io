@@ -1,23 +1,10 @@
 ---
-layout: archive
-title: "Publications"
+layout: modern
+title: Publications
 permalink: /publications/
-author_profile: true
+description: "Research in multi-agent planning, efficient search, and optimal control."
 ---
-<b>[Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation](https://jliminf.github.io/publications/lgls21)</b><br>
-<b>Lim, J.</b>, Srinivasa, S., and Tsiotras, P., "Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation,” arXiv e-prints, [arXiv:2105.12076](https://arxiv.org/abs/2105.12076), May. 2021.
-
-<b>[Class-Ordered LPA\*: An Incremental-Search Algorithm for Weighted Colored Graphs](https://jliminf.github.io/publications/colpa21)</b><br>
-<b>Lim, J.</b>, Salzman, O., and P. Tsiotras, “Class-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs,” in 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 6907-6913.
-
-<b>[A Generalized A\* Algorithm for Finding Globally Optimal Paths in Weighted Colored Graphs](https://jliminf.github.io/publications/coa21)</b><br>
-<b>Lim, J.</b>, and Tsiotras, P., “A generalized A* algorithm for finding globally optimal paths in weighted colored graphs,” in <i>2021 IEEE International Conference on Robotics and Automation (ICRA)</i>, pp. 7503–7509.
-
-<b>[MAMS-A\*: Multi-Agent Multi-Scale A\*](https://jliminf.github.io/publications/mams20)</b><br>
-<b>Lim, J.</b>, and Tsiotras, P., "MAMS-A*: Multi-Agent Multi-Scale A*," in <i>2020 IEEE International Conference on Robotics and Automation (ICRA)</i>, pp. 5583-5589.
-
-<b>[Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations](https://jliminf.github.io/publications/gtddp18)</b><br>
-Sun, W., Pan, Y., <b>Lim, J.</b>, Theodorou, E., and Tsiotras, P., "Min-Max Differential Dynamic Programming: Continuous and Discrete Time Formulations," <i>AIAA Journal of Guidance, Control, and Dynamics</i>, Vol. 41, No. 12, pp. 2568-2580, 2018, doi: 10.2514/1.G003516.
-
-<b>Manuscripts in Submission</b><br>
-Lim, J., and Tsiotras P., “CBS-Budget (CBSB): A Complete and Bounded Suboptimal Search for Multi-Agent Path Finding,” under review at Artificial Intelligence Journal.
+<div class="filters" role="group" aria-label="Filter publications"><button data-filter="all" aria-pressed="true">All publications</button><button data-filter="journal" aria-pressed="false">Journal articles</button><button data-filter="conference" aria-pressed="false">Conference papers</button></div>
+<p id="filter-status" class="filter-status" role="status" aria-live="polite">8 publications shown</p>
+{% for paper in site.data.papers %}{% include paper-row.html %}{% endfor %}
+<p class="note">For the complete, up-to-date publication record, visit <a href="https://scholar.google.com/citations?user=q5Ap8eAAAAAJ">Google Scholar <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a>.</p>

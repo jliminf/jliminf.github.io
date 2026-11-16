@@ -1,5 +1,5 @@
 ---
-<!-- layout: archive -->
+layout: modern
 title: "Service"
 permalink: /service/
 author_profile: true
@@ -13,4 +13,4 @@ author_profile: true
 
 <h3>Korean Translator</h3>
 
-I have served as a Korean translator for [Westminster PCA](https://www.youtube.com/playlist?list=PL07bxEYEojEat7CUihLULZrXipJdjPlrE), Atlanta, subtitling weekly worship services in Korean since 2021.
+I have served as a Korean translator for [Westminster PCA](https://www.youtube.com/playlist?list=PL07bxEYEojEat7CUihLULZrXipJdjPlrE), Atlanta, subtitling weekly worship services in Korean beginning in 2021.

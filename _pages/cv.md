@@ -1,59 +1,15 @@
 ---
-layout: archive
-title: "CV"
+layout: modern
+title: Résumé
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+description: "Jaein Lim, Ph.D. · Autonomy, robotics, and AI mission planning."
 ---
-
-{% include base_path %}
-
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<div class="resume-tools"><button class="button" data-print>Print / Save as PDF <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></button></div>
+<p><a href="mailto:jliminf@gmail.com">jliminf@gmail.com</a> · Cambridge, MA · <a href="https://www.linkedin.com/in/jaein-lim-9a5135236/">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=q5Ap8eAAAAAJ">Google Scholar</a></p>
+<p>Autonomy engineer and researcher with a Ph.D. in aerospace engineering and experience advancing planning algorithms from research through simulation, vehicle integration, and flight testing. Leads work in decentralized multi-agent coordination and AI mission planning, with additional experience in undersea and spacecraft autonomy and flight-software verification.</p>
+{% include experience.html %}
+{% include education.html %}
+<h2>Technical skills</h2>
+<div class="skill-list"><div><h3>Programming & robotics</h3><p>C++, Python, ROS 2, MATLAB/Simulink, Git, Docker</p></div><div><h3>AI & mission planning</h3><p>vLLM, graph-RAG, MCP, agent execution harnesses, vehicle API integration</p></div><div><h3>Planning & control</h3><p>Multi-agent pathfinding, decentralized coordination, lazy and incremental search, trajectory optimization, optimal control</p></div><div><h3>Simulation & verification</h3><p>GitLab CI, AirSim, ArduPilot SITL, PX4 SITL/HITL, processor-in-the-loop testing</p></div></div>
+<h2>Selected publications</h2>
+{% for paper in site.data.papers limit:4 %}{% include paper-row.html %}{% endfor %}

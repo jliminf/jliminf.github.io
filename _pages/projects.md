@@ -1,25 +1,10 @@
 ---
-layout: archive
-title: "Projects"
+layout: modern
+title: Selected work
 permalink: /projects/
-author_profile: true
+description: "Planning algorithms, multi-robot coordination, and the engineering that connects them to real systems."
 ---
-
-<b>Research Statement: </b>
-Heuristics are informative advice or prior knowledge for deciding which among many alternative actions renders the most effective choice to accomplish some goal.
-They are the fundamental and essential tool for an intelligent agent with limited computational resources to solve complex decision making or planning problems.  My research leverages more generalized interpretations of heuristics which allow utilizing richer information about the problem to help solve complex problems by focusing the computational effort on exploring only the consequences of the relevant actions to reach some desired objective.
-
-<b>[Semantic-Geometric Planning](https://jliminf.github.io/projects/semantic_planning)</b><br>
-<img src='/images/colpa_red.png' width=300>
-
-<b>[Lazy Incremental Search](https://jliminf.github.io/projects/lis)</b><br>
-<img src='/images/piano.png' width=300>
-
-<b>[Multi-Agent Path Finding](https://jliminf.github.io/projects/mapf)</b><br>
-<img src='/images/mapf_instance.png' width=300>
-
-<b>[Autonomous Navigation](https://jliminf.github.io/projects/stack)</b><br>
-<img src='/images/racecar.png' width=300>
-
-<b>[Multi-Agent Collaborative Search](https://jliminf.github.io/projects/mams)</b><br>
-<img src='/images/mams.png' width=300>
+<div class="focus-grid"><article class="focus-item"><p class="focus-number">DRAPER / AI MISSION PLANNING</p><h3>Context-aware AI agents</h3><p>Lead development of an agent and execution harness that connect operator intent, vehicle capabilities, graph-based retrieval, and vehicle-specific tools.</p><div class="tags"><span>vLLM</span><span>Graph-RAG</span><span>MCP</span></div></article><article class="focus-item"><p class="focus-number">DRAPER / MULTI-AGENT AUTONOMY</p><h3>Decentralized deconfliction</h3><p>Led MAPLE development for asynchronous UAV path deconfliction on CSIRP, validated with up to 3 coordinated vehicles in flight tests and 6 in simulation.</p><div class="tags"><span>MAPLE</span><span>Vehicle integration</span></div></article><article class="focus-item"><p class="focus-number">DRAPER / INTEGRATION & TESTING</p><h3>From simulation to flight</h3><p>Controller interfaces, third-party vehicle integration, and automated testing across software, simulation, hardware, and processor-in-the-loop systems.</p><div class="tags"><span>Docker</span><span>PX4</span><span>ArduPilot</span></div></article></div>
+<h2>Research projects</h2>
+<div class="project-grid">
+<article class="project-card"><a href="/projects/lis"><img src="/images/lis_pr2.png" alt="Lazy incremental search research visualization" loading="lazy"></a><h2><a href="/projects/lis">Lazy incremental search <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></h2><p>Reuse previous search results and limit expensive edge evaluations for efficient replanning with bounded-suboptimality guarantees.</p></article><article class="project-card"><a href="/projects/mapf"><img src="/images/mapf_instance.png" alt="Multi-agent pathfinding research visualization" loading="lazy"></a><h2><a href="/projects/mapf">Multi-agent pathfinding <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></h2><p>CBS-Budget and heuristic search methods for coordinating collision-free paths across robot teams.</p></article><article class="project-card"><a href="/projects/semantic_planning"><img src="/images/colpa_red.png" alt="Semantic-geometric planning research visualization" loading="lazy"></a><h2><a href="/projects/semantic_planning">Semantic-geometric planning <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></h2><p>Generalized heuristic search in weighted colored graphs, combining geometric decisions with semantic preferences.</p></article><article class="project-card"><a href="/projects/stack"><img src="/images/racecar.png" alt="Autonomous navigation research visualization" loading="lazy"></a><h2><a href="/projects/stack">Autonomous navigation <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></h2><p>A ROS planning stack and OMPL interface for a robotic car with stereo vision, inertial sensing, and LiDAR.</p></article><article class="project-card"><a href="/projects/mams"><img src="/images/mams.png" alt="Collaborative search research visualization" loading="lazy"></a><h2><a href="/projects/mams">Collaborative search <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></h2><p>Multi-agent, multi-scale planning for cooperative robot teams.</p></article></div>

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jaein Lim"
 title_separator          : "-"
 name                     : &name "Jaein Lim"
-description              : &description "Jaein Lim"
+description              : &description "Jaein Lim, Ph.D. — autonomy engineer and researcher at Draper. Multi-agent systems, motion planning, and AI mission planning."
 url                      : https://jliminf.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jliminf/jliminf.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jaein Lim"
   avatar           : "jliminf.jpeg"
-  bio              : "PhD candidate<br> Daniel Guggenheim School of Aerospace Engineering<br> Georgia Tech"
-  location         : "Atlanta, GA"
+  bio              : "Senior Member of Technical Staff<br>Autonomy and Real-time Planning<br>Draper"
+  location         : "Cambridge, MA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=q5Ap8eAAAAAJ&hl=en&oi=ao"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "jaein-lim-9a5135236" #
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -143,6 +143,10 @@ exclude:
   - gulpfile.js
   - log
   - node_modules
+  - scripts
+  - dist
+  - DESIGN_NOTES.md
+  - package-lock.json
   - package.json
   - tmp
   - vendor

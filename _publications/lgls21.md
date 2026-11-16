@@ -1,8 +1,8 @@
 ---
-title: "Class-Ordered LPA*: An Incremental-Search Algorithm for Weighted Colored Graphs"
+title: "Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation"
 collection: publications
 permalink: /publications/lgls21
-citation: 'Lim, J., Srinivasa, S., and Tsiotras, P., "Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation,” arXiv e-prints, arXiv:2105.12076, May. 2021.'
+citation: 'Lim, J., Srinivasa, S., and Tsiotras, P., "Lazy Lifelong Planning for Efficient Replanning in Graphs with Expensive Edge Evaluation,” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, pp. 8778–8783.'
 ---
 
 [[Paper]](https://arxiv.org/pdf/2105.12076.pdf)

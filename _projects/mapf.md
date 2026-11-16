@@ -10,4 +10,5 @@ We propose a way to generate informative heuristic plan <i>lazily</i> as in the 
 We improve the performance of CBS by producing more informative heuristic plans based on the semantic planning of each individual agent by taking future inter-conflicts into consideration.
 
 ## Publications
-To be appeared...
+**[CBS-Budget (CBSB): A Complete and Bounded Suboptimal Search for Multi-Agent Path Finding](https://doi.org/10.1016/j.artint.2025.104349)**
+Lim, J., and Tsiotras, P., *Artificial Intelligence*, 2025.
