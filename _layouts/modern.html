@@ -14,8 +14,8 @@
   <meta property="og:type" content="website">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/modern.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}?v={{ site.github.build_revision | default: 'navy-2' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/modern.css' | relative_url }}?v={{ site.github.build_revision | default: 'navy-2' }}">
   <script src="{{ '/assets/js/modern.js' | relative_url }}" defer></script>
 <noscript><style>@media(max-width:700px){.site-header{height:auto;flex-wrap:wrap;padding-top:20px}.site-header nav{display:flex;position:static;flex-wrap:wrap;gap:18px;padding:15px 0;box-shadow:none;border:0}.menu-toggle{display:none}}</style></noscript>
 </head>
