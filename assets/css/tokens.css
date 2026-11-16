@@ -1,8 +1,8 @@
 /* Shared design tokens. Add or change type sizes here, never in page styles. */
 :root {
   --color-background: #ffffff;
-  --color-text: #172f50;
-  --color-muted: #526176;
+  --color-text: #000000;
+  --color-muted: #000000;
   --color-accent: #193e6b;
   --color-accent-hover: #102d50;
   --color-border: #dce3eb;

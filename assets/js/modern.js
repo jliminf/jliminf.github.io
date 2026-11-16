@@ -18,7 +18,7 @@ document.addEventListener('keydown', event => {
     menuButton.focus();
   }
 });
-document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+
 const publicationFilters = document.querySelectorAll('[data-filter]');
 publicationFilters.forEach(button => button.addEventListener('click', () => {
   const selected = button.dataset.filter;

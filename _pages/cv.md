@@ -4,7 +4,7 @@ title: Résumé
 permalink: /cv/
 description: "Jaein Lim, Ph.D. · Autonomy, robotics, and AI mission planning."
 ---
-<div class="resume-tools"><button class="button" data-print>Print / Save as PDF <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></button></div>
+<div class="resume-tools"><a class="button" href="{{ "/files/Jaein-Lim-Resume.pdf" | relative_url }}" download="Jaein-Lim-Resume.pdf">Download résumé (PDF) <svg class="out-arrow" aria-hidden="true" viewBox="0 0 16 16" fill="none"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.3"/></svg></a></div>
 <p><a href="mailto:jliminf@gmail.com">jliminf@gmail.com</a> · Cambridge, MA · <a href="https://www.linkedin.com/in/jaein-lim-9a5135236/">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=q5Ap8eAAAAAJ">Google Scholar</a></p>
 <p>Autonomy engineer and researcher with a Ph.D. in aerospace engineering and experience advancing planning algorithms from research through simulation, vehicle integration, and flight testing. Leads work in decentralized multi-agent coordination and AI mission planning, with additional experience in undersea and spacecraft autonomy and flight-software verification.</p>
 {% include experience.html %}

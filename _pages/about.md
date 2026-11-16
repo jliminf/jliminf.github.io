@@ -15,7 +15,7 @@ redirect_from: [/about/, /about.html]
   </div>
   {% include portrait.html %}
 </section>
-<div class="credibility" aria-label="Background and validation"><div><strong>Draper</strong><span>Autonomy & real-time planning<br>September 2022–present</span></div><div><strong>Georgia Tech</strong><span>Ph.D. in Aerospace Engineering<br>August 2022</span></div><div><strong>3 / 6</strong><span>Coordinated vehicles<br>Flight tests / simulation</span></div></div>
+<div class="credibility" aria-label="Background"><div><strong>Draper</strong><span>Autonomy & real-time planning<br>September 2022–present</span></div><div><strong>Georgia Tech</strong><span>Ph.D. in Aerospace Engineering<br>August 2022</span></div></div>
 <section class="section">
  {% include section-heading.html label="01 / Focus" title="Research & engineering" %}
  <div class="focus-grid">
