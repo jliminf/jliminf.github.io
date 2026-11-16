@@ -28,7 +28,7 @@ Responsive navigation, skip link, visible keyboard focus, descriptive image alte
 - Journal publication filtering and mobile navigation tested successfully.
 - Internal links and assets on seven primary pages checked successfully.
 - JavaScript syntax and Git whitespace checks passed.
-- A canonical Ruby/Jekyll build could not be run in this environment because Ruby is unavailable. The GitHub Actions workflow is included for this check when pushed; its result is not yet known.
+- The canonical GitHub Pages Jekyll build passed in GitHub Actions. The check workflow uses the same Pages build action before validating links, avoiding the legacy Mac-only Bundler lockfile.
 
 ## Apply to GitHub Pages
 
