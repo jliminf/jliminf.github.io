@@ -1,0 +1,34 @@
+/* Shared design tokens. Add or change type sizes here, never in page styles. */
+:root {
+  --color-background: #ffffff;
+  --color-text: #172f50;
+  --color-muted: #526176;
+  --color-accent: #193e6b;
+  --color-accent-hover: #102d50;
+  --color-border: #dce3eb;
+  --color-surface: #f7f9fc;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --text-small: 0.875rem; /* 14px: metadata, labels, navigation, buttons */
+  --text-body: 1rem;      /* 16px: all descriptive prose */
+  --text-card: 1.25rem;   /* 20px: cards, publication titles, subheadings */
+  --text-section: 1.625rem; /* 26px: section headings */
+  --text-page: 2.25rem;   /* 36px: page titles, including the homepage */
+  --weight-body: 400;
+  --weight-heading: 500;
+  --weight-emphasis: 600;
+  --leading-body: 1.7;
+  --leading-heading: 1.3;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --radius: 4px;
+}
+@media (max-width: 700px) {
+  :root { --text-page: 2rem; }
+}
+@media print {
+  :root { --text-small: 9pt; --text-body: 10pt; --text-card: 12pt; --text-section: 16pt; --text-page: 22pt; }
+}

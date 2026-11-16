@@ -1,35 +1,35 @@
-# Portfolio refresh
+# Portfolio design system
 
-This branch updates the existing GitHub Pages/Jekyll site. Existing project and publication detail URLs are retained. Primary pages and legacy detail pages use `_layouts/modern.html` and `assets/css/modern.css`.
+## Shared templates
 
-## Content
+- `_layouts/modern.html`: shared navigation, page heading, content container, and footer.
+- `_includes/section-heading.html`: section heading with optional label and related link. Parameters: `title`, `label`, `url`, `link_text`.
+- `_includes/paper-row.html`: a publication row using the shared card-title and metadata styles.
+- `_includes/portrait.html`: a compact portrait with the same framing on every screen.
+- `_includes/experience.html` and `_includes/education.html`: content shared between the experience page and printable résumé.
 
-Primary source: `Jaein-Lim-Resume-Refined(1).pdf`, latest available revision dated September 26, 2026. Publications also retain earlier papers already on the site. Acceptance status is retained from that résumé rather than inferred. Contact, work history, education, and role descriptions are sourced from the résumé. The public web résumé is a concise adaptation; it excludes phone number and clearance information.
+## Typography
 
-The LinkedIn photo could not be retrieved (HTTP 999). The draft retains `images/jliminf.jpeg` from the original repository; replace that file with the requested LinkedIn portrait when supplied. It is not represented as a newly retrieved LinkedIn image.
+`assets/css/tokens.css` is the single source for typography, colors, and spacing. `modern.css` maps these tokens to semantic elements and component roles. Use the existing roles when adding pages; do not add local numeric font sizes or inline font overrides.
 
-The original résumé PDF transfer was unavailable. `/cv/` is an updated printable HTML résumé with a Print / Save as PDF action.
+| Role | Desktop | Mobile | Use |
+| --- | --- | --- | --- |
+| Page title | 36px | 32px | All h1 headings, including the homepage |
+| Section title | 26px | 26px | Main h2 headings |
+| Card title | 20px | 20px | h3, publication titles, project-card titles |
+| Body | 16px | 16px | Introductory and descriptive prose, lists |
+| Metadata / controls | 14px | 14px | Labels, dates, tags, navigation, buttons, footer |
 
-## Editing and preview
+One system sans-serif stack is used throughout. Body weight is 400, headings 500, and emphasis 600. Mobile changes the page-title token once; individual components do not define their own responsive text sizes. Print sizes are centralized in the same token file.
 
-- Main content: `_pages/about.md`, `_pages/projects.md`, `_includes/experience.html`, `_includes/education.html`.
-- Publications: `_data/papers.yml`.
-- Run `bundle install` then `bundle exec jekyll serve` for the canonical preview.
-- GitHub Pages continues to build the repository using Jekyll. No hosting migration is required.
-- The included CI workflow builds Jekyll and verifies internal links on pull requests and pushes.
+## Color and imagery
 
-## Accessibility
+White background, dark-blue text and controls, muted slate secondary text, and light blue-gray borders. The header uses the name as plain text, without an initials logo.
 
-Responsive navigation, skip link, visible keyboard focus, descriptive image alternatives, accessible publication filters, reduced-motion support, and print styling are included. Core content and links work without JavaScript.
+`images/jaein-lim-portrait.jpg` is the supplied photograph, preserved unchanged. The portrait component uses a display-only crop to show the face and upper torso. It is 220px wide on desktop and 180px on mobile. Adjust framing in `.portrait-frame`, rather than altering the source photo.
 
-## Validation completed
+## Content and maintenance
 
-- Desktop and 390-pixel mobile layout inspected in a browser using a static Liquid/Markdown preview.
-- Journal publication filtering and mobile navigation tested successfully.
-- Internal links and assets on seven primary pages checked successfully.
-- JavaScript syntax and Git whitespace checks passed.
-- The canonical GitHub Pages Jekyll build passed in GitHub Actions. The check workflow uses the same Pages build action before validating links, avoiding the legacy Mac-only Bundler lockfile.
+Primary content source: `Jaein-Lim-Resume-Refined(1).pdf`, September 26, 2026 revision. Earlier publications and project URLs are preserved. The web résumé is a printable adaptation.
 
-## Apply to GitHub Pages
-
-Copy the contents of this source directory into your existing `jliminf.github.io` checkout, including `.github`, commit, and push to your publishing branch. Keep your existing GitHub Pages settings. Review the build check and Pages deployment before considering the live update complete.
+Edit `_data/papers.yml` for publications. Main content lives in `_pages/` and the shared content includes. GitHub Pages continues to build Jekyll. The `Check site` workflow uses GitHub's Pages build action and validates local links on the primary pages.
